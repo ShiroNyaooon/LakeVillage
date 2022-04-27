@@ -1,0 +1,615 @@
+/***********************************************************
+	背景色
+************************************************************/
+.menuColor {
+	background-color: #8cc63f;
+}
+
+.baseColor {
+	background-color: #0e1b2e;
+}
+
+.mainColor {
+	background-color: white;
+	/*background-color: #2a2a2a;*/
+}
+
+.accentColor {
+	background-color: goldenrod;
+}
+
+.extraColor1 {
+	background-color: #eee;
+}
+
+.extraColor2 {
+	background-color: rgb(221, 219, 219);
+}
+
+/***********************************************************
+	ヘッダ
+************************************************************/
+header {
+	width: calc(100% - 24px);
+	color: white;
+	font-size: 13px;
+	padding: 4px 12px 4px 12px; /* 上 | 右 | 下 | 左 */
+}
+
+/***********************************************************
+	フッタ
+************************************************************/
+footer {
+	width: calc(100% - 20px);
+	color: white;
+	font-size: 13px;
+	padding: 10px 8px 8px 12px; /* 上 | 右 | 下 | 左 */
+}
+
+footer>div {
+	width: 100%;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0 auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	line-height: 1.3;
+}
+
+.lnkFooter {
+	color: white;
+	margin-right: 8px;
+}
+
+/***********************************************************
+	メイン
+************************************************************/
+main {
+	width: 100%;
+}
+
+section>div {
+	width: 100%;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0 auto;
+	padding-top: 32px;
+	padding-bottom: 48px;
+}
+
+/***********************************************************
+	メイン	MainVisual
+************************************************************/
+#frmMainVisual {
+	position: relative;
+}
+
+#imgMainVisual {
+	width: 100%;
+}
+
+#svgWave {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#imgMainVisualTitle {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#imgMainVisualIkada {
+	position: absolute;
+	top: 450px;
+	left: 120px;
+}
+
+#txtMainVisual1 {
+	color: white;
+	position: absolute;
+	top: 550px;
+	left: 550px;
+	font-family: "HG明朝B";
+	font-size: 40px;
+}
+
+#txtMainVisual1 > span {
+	font-size: 30px;
+}
+
+#txtMainVisual2 {
+	color: white;
+	position: absolute;
+	top: 620px;
+	left: 550px;
+	font-family: "HG明朝B";
+	font-size: 43px;
+}
+
+#txtMainVisual2 > span {
+	font-size: 30px;
+}
+
+
+
+/***********************************************************
+	メイン	Info
+************************************************************/
+#frmInfo {
+	text-align: center;
+}
+
+/***********************************************************
+	メイン	About
+************************************************************/
+#frmAbout > h1 {
+}
+
+#frmAbout > p {
+	color: white;
+	line-height: 2;
+	font-size: 14px;
+}
+
+/***********************************************************
+	メイン	frmRoomType
+************************************************************/
+#frmRoomType {
+	color: white;
+}
+
+.typeName {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.roomDescription {
+	margin-top: 8px;
+	font-size: 12px;
+	line-height: 1.3;
+}
+
+.btnbooking {
+	margin-top: 12px;
+	width: 50%;
+	background-color: #8cc63f;
+	color: white;
+	font-size: 17px;
+	border-radius: 16px;
+}
+
+/***********************************************************
+	メイン	frmEvent
+************************************************************/
+.eventDescription {
+	color: white;
+	margin: 8px;
+}
+
+/***********************************************************
+	メイン	Access
+************************************************************/
+#frmAccess {
+
+}
+
+/***********************************************************
+	メイン
+************************************************************/
+body {
+	color:#2a2a2a;
+	background-color: white;
+}
+
+main {
+}
+
+article {
+	width: 100%;
+	max-width :1000px;
+	margin: 0 auto;
+}
+
+article>section {
+	margin: 8px 16px 32px 16px; /* 上 | 右 | 下 | 左 */
+}
+
+section.small {
+	width: calc(100% / 3);
+}
+
+section.middle {
+	width: calc(50% - 32px);
+}
+
+section.large {
+	width: calc(100% - 32px);
+}
+
+
+/***********************************************************
+	メイン	見出し２
+************************************************************/
+H1 {
+	font-size: 2.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+H2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 16px;
+}
+
+H3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-left: 16px;
+}
+
+/***********************************************************
+	メイン：NEW
+************************************************************/
+dl {
+	margin: 16px 16px 0px 16px; /* 上 | 右 | 下 | 左 */
+}
+
+dt {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+dd {
+	margin-top: 4px;
+	margin-bottom: 12px;
+	font-size: 0.8em;
+}
+
+main {
+	z-index: 100;
+}
+
+/***********************************************************
+	ロゴ
+************************************************************/
+#imgLogo {
+	width: 80px;
+	height: auto;
+}
+
+/***********************************************************
+	角を丸める
+************************************************************/
+.radius {
+	border-radius: 16px;
+}
+
+.radiusRound {
+	border-radius: 5px;
+}
+
+.radiusCircle {
+	border-radius: 50%;
+}
+
+.radiusCircleEx {
+	border-radius: 9999px;
+}
+
+/***********************************************************
+	罫線
+************************************************************/
+.borderTopNone {
+	border-top-style: hidden;
+}
+
+.borderRightNone {
+	border-right-style: hidden;
+}
+
+.borderBottomNone {
+	border-bottom-style: hidden;
+}
+
+.borderBotLeftNone {
+	border-left-style: hidden;
+}
+
+
+/***********************************************************
+	余白	上 | 右 | 下 | 左
+	Example1:	margin: 10px 0px 10px 0px;
+	Example2:	margin-top: 0px; 
+	Example3:	margin-right: 0px;
+	Example4:	margin-bottom: 0px;
+	Example5:	margin-left: 0px;
+	Example6:	padding: 10px 0px 10px 0px;
+	Example7:	padding-top: 0px; 
+	Example8:	padding-right: 0px;
+	Example9:	padding-bottom: 0px;
+	Example10:	padding-left: 0px;
+************************************************************/
+/***********************************************************
+	背景色
+	Example1:	background-color: white;
+	Example2:	background-color: #00ff00;
+	Example3:	background-color: rgb(214, 122, 127);
+	Example4:	background-color: #00ff0080; ※50%透過
+	Example5:	background-color: rgb(214, 122, 127, 0.5); ※50%透過
+************************************************************/
+/***********************************************************
+	文字色
+	Example1:	color: white;
+	Example2:	color: #00ff00;
+	Example3:	color: rgb(214, 122, 127);
+	Example4:	color: #00ff0080; ※50%透過
+	Example5:	color: rgb(214, 122, 127, 0.5); ※50%透過
+************************************************************/
+/***********************************************************
+	文字装飾
+************************************************************/
+/* 文字に取り消し線 */
+.strikethrough {
+	text-decoration: line-through;
+}
+
+/* 文字に下線（白） */
+.UnderlineWhite {
+	display: inline-block;
+	border-bottom: solid 1px white;
+}
+
+/* 文字に下線（黒） */
+.UnderlineBlack {
+	display: inline-block;
+	border-bottom: solid 1px black;
+}
+
+/* 文字に下線（赤） */
+.UnderlineRed {
+	display: inline-block;
+	border-bottom: solid 1px red;
+}
+
+/***********************************************************
+	ボタン装飾
+************************************************************/
+.btn100px {
+	padding: 8px 0px 8px 0px;
+	width: 100px;
+}
+
+/***********************************************************
+	水平方向の配置位置
+************************************************************/
+.alignCenter {
+	text-align: center;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+/***********************************************************
+	グループボックス
+************************************************************/
+.groupFull {
+	border: 1px solid #e6e6e6;
+	margin: 10px;
+	padding: 20px;
+}
+
+.group {
+	border: 1px solid #e6e6e6;
+	padding: 20px;
+	margin: 10px;
+	width: 90%;
+}
+
+.group > div , textarea{
+	/* カスタム */
+	max-width: 100%;
+	width: 100%;
+	resize: vertical;
+}
+
+/***********************************************************
+	フレックスボックス
+************************************************************/
+/* 画面幅がPC:横並び、画面幅がスマホ:縦並び */
+.flex {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+			flex-direction: row;
+		-ms-flex-wrap: nowrap;
+			flex-wrap: nowrap;
+}
+
+/* 横並び */
+.flexHorizontal {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		    flex-direction: row;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+}
+
+/* 改行あり横並び */
+.flexHorizontalWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		    flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+}
+
+/* 縦並び */
+.flexVertical {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+}
+
+/***********************************************************
+	フレックスボックスの位置
+************************************************************/
+.flex-left {
+	/* 左寄せ */
+	justify-content: flex-start;
+}
+
+.flex-center {
+	/* 中央寄せ */
+	justify-content: center;
+}
+
+.flex-right {
+	/* 右寄せ */
+	justify-content: flex-end;
+}
+
+.flex-between {
+	/* 先頭から順に並べ、最後のみ末尾に配置 */
+	justify-content: space-between;
+}
+
+.flex-around {
+	/* 均等に配置 */
+	justify-content: space-around;
+}
+
+/***********************************************************
+	スマホ版(縦)
+************************************************************/
+@media screen and (max-width: 400px) {
+
+	H1 {
+		font-size: 2.5em;
+	}
+}
+
+/***********************************************************
+	セキュリティ
+************************************************************/
+.hidden {
+	display: none;
+}
+
+/***********************************************************
+	ユーザーアイコン
+************************************************************/
+.userIcon {
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+	object-position: 0% 0%;
+	border-radius: 50%;
+}
+
+.myUserIcon {
+	object-fit: cover;
+	width: 90px;
+	height: 90px;
+	object-position: 0% 0%;
+	border-radius: 50%;
+}
+
+/***********************************************************
+	ユーザー情報
+************************************************************/
+.newUserInfo {
+	font-size: 0.8em;
+	padding: 8px 16px;
+}
+
+.newUserInfoImg {
+	margin-left: 8px;
+    margin-right: 8px;
+	float: left;
+}
+
+.newUserInfoNm {
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 10px;
+}
+
+.block {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+/***********************************************************
+	メイン	メインビジュアル
+************************************************************/
+H1 {
+	color:white;
+}
+
+H2 {
+	color:white;
+	font-size: 1.4em;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+
+.productTxt {
+	font-size: 0.7em;
+	margin-left: 16px;
+	margin-left: 8px;
+	color:white;
+	line-height: 1.3;
+}
+
+
+
+.productImg {
+	margin: auto 0px;
+}
+
+/***********************************************************
+	リンク
+************************************************************/
+H2 a {
+	color: white;
+}
+
+/***********************************************************
+	WEBフォント
+************************************************************/
+.fontPopRumCuteNormal {
+	font-family: poprumcute, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
